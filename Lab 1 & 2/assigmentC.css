@@ -1,0 +1,22 @@
+p {
+    font-style: normal;
+    font-size: medium;
+}
+
+header {
+    font-style: italic;
+    font-size: large;
+}
+
+table {
+    border-color: aqua;
+    border: 1;
+    border-style: double;
+}
+
+a { text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}
