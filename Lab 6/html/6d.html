@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="../js/6d.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        table, th, tr, td {border: 1px solid black;}
+        form   {text-align: center;}
+        table {margin: auto;}
+    </style>
+
+</head>
+<body>
+<form onsubmit="return false;">
+    Something:
+    <label for="input_1"></label><input type="text" id="input_1" required /> <br>
+
+    Something else:
+
+    <label for="input_2"></label><input type="text" id="input_2" required /> <br>
+
+    Something sth else:
+
+    <label for="input_3"></label><input type="text" id="input_3" required /><br>
+
+    <button  onclick="addRowToTable()">Add a new row</button>
+    <br>
+    <br>
+    <br>
+</form>
+<table>
+    <thead>
+    <tr>
+        <th>Something</th>
+        <th>Something else</th>
+        <th>Something sth else</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>xD</td>
+        <td>xDD</td>
+        <td>xDDD</td>
+    </tr>
+    <tr>
+        <td>XD</td>
+        <td>XDD</td>
+        <td>XDDD</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
