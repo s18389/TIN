@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="9b.js"></script>
+</head>
+<body>
+    <div style="text-align: center;">
+        <form id="formCalculate">
+            <label for="number_1">Enter 1st number:</label><input type="number" id="number_1" name="number_1" required /><br>
+            <label for="number_2"> Enter 2nd number:</label><input type="number" id="number_2" name="number_2" required /><br>
+         <br>
+            <label for="chooseSign">Choose ur operation sign:</label>
+            <select id="chooseSign">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+        </select>
+    <br>
+    <br>
+    <button onclick="calculate()" type="button" >
+        Calculate!
+    </button>
+            <br>
+            <br>
+</form>
+Result:
+        <p></p>
+</div>
+</body>
+</html>
