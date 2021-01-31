@@ -9,6 +9,7 @@ Database:
 Database based on external MongoDB Atlas service. 
 It has 3 main collections (tables).  
 ![0](https://user-images.githubusercontent.com/61834139/106396850-d4593a00-640a-11eb-9421-2479873697b4.jpg)
+
 Each service has to have only one car, each car has to have only one owner (client).
 
 Functionalities:
