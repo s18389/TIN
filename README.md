@@ -8,6 +8,7 @@ Subject of this app is very simple car service management.
 Database:
 Database based on external MongoDB Atlas service. 
 It has 3 main collections (tables).  
+
 ![0](https://user-images.githubusercontent.com/61834139/106396850-d4593a00-640a-11eb-9421-2479873697b4.jpg)
 
 Each service has to have only one car, each car has to have only one owner (client).
@@ -17,7 +18,7 @@ Functionalities:
 ![1](https://user-images.githubusercontent.com/61834139/106396851-d4f1d080-640a-11eb-8315-3c004e942cf7.jpg)
  
 2.	Adding, editing and deleting each record.
- ![2](https://user-images.githubusercontent.com/61834139/106396855-d58a6700-640a-11eb-9e19-64456bb79430.jpg)
+![2](https://user-images.githubusercontent.com/61834139/106396855-d58a6700-640a-11eb-9e19-64456bb79430.jpg)
  
 3.	Getting information of the car which is serviced if we click on a car id in the car service list. In the same way if we will click on the owner id in the car list, we will get information about the owner.
 ![3](https://user-images.githubusercontent.com/61834139/106396847-d3c0a380-640a-11eb-80d7-786cebe05c89.jpg)
