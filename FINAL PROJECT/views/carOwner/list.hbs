@@ -1,0 +1,32 @@
+<h3><a class="btn btn-primary btn-sm" href="/carOwner">Create New</a>
+    <div style="text-align: center;">Car Owner List</div></h3>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Owner ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Phone</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each list}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.name}}</td>
+            <td>{{this.surname}}</td>
+            <td>{{this.phone}}</td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="/carOwner/{{this.id}}">Edit</a>
+                <a class="btn btn-primary btn-sm" href="/carOwner/delete/{{this.id}}"
+                onclick="return confirm('Are u sure to delete this record?')">Delete</a>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+<div style="text-align: center;">
+    <h3>Click here to show <b><a href="../car/list">car list</a> </b></h3>
+    <h3>Click here to show <b><a href="../carOwner/list">car owner list</a> </b></h3>
+    <h3>Click here to show <b><a href="../carService/list">car service list</a> </b></h3>
+</div>

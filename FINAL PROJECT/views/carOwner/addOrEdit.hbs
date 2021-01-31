@@ -1,0 +1,21 @@
+<h3>{{viewTitle}}</h3>
+
+<form action='/carOwner' method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{carOwner._id}}">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" name="name"  maxlength="100" placeholder="Jakub" value="{{carOwner.name}}">
+    </div>
+    <div class="form-group">
+        <label>Surname</label>
+        <input type="text" class="form-control" name="surname" maxlength="100" placeholder="Kovalski" value="{{carOwner.surname}}">
+    </div>
+    <div class="form-group col-md-6">
+        <label>Phone number</label>
+        <input type="number" class="form-control" name="phone" maxlength="20" placeholder="512412312" value="{{carOwner.phone}}">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Submit</button>
+        <a class="btn btn-secondary" href="/carOwner/list">View All</a>
+    </div>
+</form>

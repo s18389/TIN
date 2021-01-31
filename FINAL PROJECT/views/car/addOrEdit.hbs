@@ -1,0 +1,25 @@
+<h3>{{viewTitle}}</h3>
+
+<form action='/car' method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{car._id}}">
+    <div class="form-group">
+        <label>Mark</label>
+        <input type="text" class="form-control" name="mark" maxlength="30" placeholder="Alfa Romeo" value="{{car.mark}}">
+    </div>
+    <div class="form-group">
+        <label>Model</label>
+        <input type="text" class="form-control" name="model" maxlength="30" placeholder="147" value="{{car.model}}">
+    </div>
+    <div class="form-group col-md-6">
+        <label>Year</label>
+        <input type="number" class="form-control" name="year" maxlength="4" placeholder="2002" value="{{car.year}}">
+    </div>
+    <div class="form-group col-md-6">
+        <label>Car owner id</label>
+        <input type="text" class="form-control" name="carOwner" maxlength="100" placeholder="6016ece11566421544936cb5" value="{{car.carOwner}}">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Submit</button>
+        <a class="btn btn-secondary" href="/car/list">View All</a>
+    </div>
+</form>
