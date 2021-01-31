@@ -1,6 +1,10 @@
 # TIN
 FINAL PROJECT README
 
+IMPORTANT
+Port: 1234
+Main js: index.js
+
 Description:
 I have created single-page application based on MongoDB database.
 Subject of this app is very simple car service management.
