@@ -15,13 +15,13 @@ Database:
 Database based on external MongoDB Atlas service. 
 It has 3 main collections (tables).  
 
-![0](https://user-images.githubusercontent.com/61834139/106397391-606c6100-640d-11eb-95ac-575fbdbe8cf3.jpg)
+![0](https://user-images.githubusercontent.com/61834139/106397426-a32e3900-640d-11eb-975f-5838b8a2f009.jpg)
 
 Each service has to have only one car, each car has to have only one owner (client).
 
 Functionalities:
 1.	Listing all records (documents) for each table (collection).
-![1](https://user-images.githubusercontent.com/61834139/106396851-d4f1d080-640a-11eb-8315-3c004e942cf7.jpg)
+![1](https://user-images.githubusercontent.com/61834139/106397391-606c6100-640d-11eb-95ac-575fbdbe8cf3.jpg)
  
 2.	Adding, editing and deleting each record.
 ![2](https://user-images.githubusercontent.com/61834139/106396855-d58a6700-640a-11eb-9e19-64456bb79430.jpg)
