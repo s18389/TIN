@@ -8,7 +8,7 @@ Subject of this app is very simple car service management.
 Database:
 Database based on external MongoDB Atlas service. 
 It has 3 main collections (tables).  
-
+![plot](./TIN/FINAL PROJECT/README IMAGES/0.jpg)
 Each service has to have only one car, each car has to have only one owner (client).
 
 Functionalities:
