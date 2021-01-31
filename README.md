@@ -27,7 +27,7 @@ Functionalities:
 ![2](https://user-images.githubusercontent.com/61834139/106396855-d58a6700-640a-11eb-9e19-64456bb79430.jpg)
  
 3.	Getting information of the car which is serviced if we click on a car id in the car service list. In the same way if we will click on the owner id in the car list, we will get information about the owner.
-![3](https://user-images.githubusercontent.com/61834139/106397393-619d8e00-640d-11eb-9543-6f8162bc1367.jpg)
+![3](https://user-images.githubusercontent.com/61834139/106397446-c822ac00-640d-11eb-98e5-b0ed2b8d9a43.jpg)
 
 4.	Data validation – each data in each table is required by server at proper type (number, string). On the client side, data validation relies on max length and proper data type (date, number, text).
 
